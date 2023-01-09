@@ -1,0 +1,64 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  
+
+  width: 100vw;
+  margin: 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  overflow: visible;
+  align-items: center; 
+  justify-content:space-around;
+  padding: 10px;
+  background: linear-gradient(to bottom, #48cae4 0%, #0066cc 100%);
+  
+}
+
+.container img {
+  height: 50px;
+}
+
+.card li {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  
+}
+
+.container button {
+  background-color: black;
+  color: white;
+}
+
+.container input {
+  width: 30px;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.name_price {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  
+}

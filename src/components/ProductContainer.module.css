@@ -1,0 +1,8 @@
+.container {
+  background: #0066cc 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 80px;
+}

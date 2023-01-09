@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #48cae4 0%, #0066cc 50%);
+}
+
+.container {
+  background: #0066cc 100%;
+  display: flex;
+  flex-direction: column;
+}
