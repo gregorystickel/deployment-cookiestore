@@ -9,7 +9,7 @@ const ProductContainer = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/allProducts")
+      .get("https://thecookiestore-api.onrender.com/allProducts")
       .then((response) => {
         console.log("Axios", response);
         setProductList(response.data);

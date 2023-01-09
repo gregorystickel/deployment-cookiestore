@@ -16,7 +16,7 @@ const SignupScreen = () => {
     console.log(values);
 
     axios
-      .post("//localhost:4000/adduser", formData, {
+      .post("https://thecookiestore-api.onrender.com/adduser", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       })
       .then(function (response) {

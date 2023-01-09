@@ -45,7 +45,7 @@ const OrderSummaryScreen = () => {
 
   useEffect(() => {
     axios
-      .post("http://localhost:4000/addOrder", data, {
+      .post("https://thecookiestore-api.onrender.com/addOrder", data, {
         headers: { "Content-Type": "application/json" },
       })
       .then(function (response) {

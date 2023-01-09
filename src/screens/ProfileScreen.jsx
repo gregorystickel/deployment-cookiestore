@@ -12,7 +12,7 @@ const ProfileScreen = () => {
 
   useEffect(() => {
     axios
-      .post("//localhost:4000/getUser", {
+      .post("https://thecookiestore-api.onrender.com/getUser", {
         user_name: currentUser,
       })
       .then(function (response) {
@@ -47,7 +47,7 @@ const ProfileScreen = () => {
 
   useEffect(() => {
     axios
-      .get(`//localhost:4000/getOrders?userId=${currentUserId}`)
+      .get(`https://thecookiestore-api.onrender.com/getOrders?userId=${currentUserId}`)
       .then(function (response) {
         console.log("Orders Response:", response);
         setOrdersList(response.data);
