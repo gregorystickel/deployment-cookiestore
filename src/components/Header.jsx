@@ -22,7 +22,7 @@ const Header = () => {
     localStorage.removeItem("userId");
     localStorage.removeItem("isAuthenticated");
     window.location.reload(false)
-    navigate("/login");
+    navigate("/");
     
     
   };
